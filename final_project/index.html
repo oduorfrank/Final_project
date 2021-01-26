@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Apiyo Project</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/paho-mqtt/1.0.1/mqttws31.min.js" type="text/javascript"></script>
+        <script src="mqtt.js" type="text/javascript" defer></script>
+    </head>
+    <body>
+        <h1 id="title">Display</h1>
+        
+        <div id="btns-holder">
+            <button id="btn-start" onclick="startSession()">Connect</button>
+            <button id="btn-reset" onclick="resetColors()">Reset</button>
+            <button id="btn-stop" onclick="stopSession()">Disconnect</button>
+            <div id="conn-stat">Status: Disconnected</div>
+        </div>
+        <embed src="apiyo-track.svg" id="track">
+
+        <div id="st1" class="squares-col" onclick="clickELem(this)"><span class="grp-no">12 14 B1 2F</span></div>
+        <div id="st2" class="squares-col" onclick="clickELem(this)"><span class="grp-no">F6 34 F9 25</span></div>
+        <div id="st3" class="squares-col" onclick="clickELem(this)"><span class="grp-no">ED B9 E0 2B</span></div>
+        <div id="st4" class="squares-col" onclick="clickELem(this)"><span class="grp-no">83 87 3B 2E</span></div>        
+        <div id="st5" class="squares-col" onclick="clickELem(this)"><span class="grp-no">F6 34 F9 27</span></div>
+        
+    </body>
+</html>
