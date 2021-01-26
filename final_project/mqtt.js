@@ -18,9 +18,9 @@ var st4Elem = document.getElementById('st4');
 var st5Elem = document.getElementById('st5');
 
 var stations = {
-	'11 14 B1 2F': st1Elem,
+	'12 14 B1 2F': st1Elem,
 	'F6 34 F9 25': st2Elem,
-	'EE B9 E0 2B': st3Elem,
+	'ED B9 E0 2B': st3Elem,
 	'83 87 3B 2E': st4Elem,
 	'F6 34 F9 27': st5Elem,
 }
